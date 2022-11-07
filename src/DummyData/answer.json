@@ -1,0 +1,82 @@
+[
+    {
+        "aID" : "1a",
+        "value" : "356"
+    },
+    {
+        "aID" : "1b",
+        "value" : "355"
+    },
+    {
+        "aID" : "1c",
+        "value" : "366"
+    },
+    {
+        "aID" : "1d",
+        "value" : "365"
+    },
+    {
+        "aID" : "2a",
+        "value" : "Cow"
+    },
+    {
+        "aID" : "2b",
+        "value" : "Goat"
+    },
+    {
+        "aID" : "2c",
+        "value" : "Snake"
+    },
+    {
+        "aID" : "2d",
+        "value" : "Camel"
+    },
+    {
+        "aID" : "3a",
+        "value" : "26"
+    },
+    {
+        "aID" : "3b",
+        "value" : "24"
+    },
+    {
+        "aID" : "3c",
+        "value" : "27"
+    },
+    {
+        "aID" : "3d",
+        "value" : "25"
+    },
+    {
+        "aID" : "4a",
+        "value" : "59"
+    },
+    {
+        "aID" : "4b",
+        "value" : "30"
+    },
+    {
+        "aID" : "4c",
+        "value" : "60"
+    },
+    {
+        "aID" : "4d",
+        "value" : "66"
+    },
+    {
+        "aID" : "5a",
+        "value" : "Kitten"
+    },
+    {
+        "aID" : "5b",
+        "value" : "Tadpole"
+    },
+    {
+        "aID" : "5c",
+        "value" : "Calf"
+    },
+    {
+        "aID" : "5d",
+        "value" : "Puppy"
+    }
+]

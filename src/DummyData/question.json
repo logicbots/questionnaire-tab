@@ -1,0 +1,22 @@
+[
+    {
+        "qId" : 1,
+        "value" : "How many days in leap year ?"
+    },
+    {
+        "qId" : 2,
+        "value" : " Which animal is known as the 'Ship of the Desert' ? "
+    },
+    {
+        "qId":3,
+        "value" : "How many letters are there in the English alphabet?"
+    },
+    {
+        "qId":4,
+        "value": "How many seconds are there in a minute?"
+    },
+    {
+        "qId":5,
+        "value" : "Baby frog is known as......."
+    }
+]

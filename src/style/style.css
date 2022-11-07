@@ -1,0 +1,108 @@
+.body{
+    background: url('../assets/Background-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* filter: blur(0.5px);
+    -webkit-filter: blur(0.5px); */
+}
+.bodyQues{
+    background: url('../assets/bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: blur(18px);
+    -webkit-filter: blur(5px);
+}
+.finishBody{
+    background: url('../assets/bg-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: blur(18px);
+    -webkit-filter: blur(5px);
+}
+.landingBox{
+    top: 85vh;
+}
+
+.hexagon {
+    -webkit-clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    cursor: pointer;
+}
+.shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: 4vw;
+    width: 17vw;
+}
+
+.shape-inner {	
+    height: 4vw;
+	/* border  : 2px solid #fcd401; */
+    width: 17vw;
+    margin: auto;
+	background : #03086c;
+}
+.hexagon:hover{
+    background-color: #fcd201e3;
+}
+.questionBox{
+    z-index: 2;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.finishBox{
+    z-index: 2;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shape-outer-ques {
+    display: flex;
+    flex-shrink: 0;
+    height: 6vw;
+    width: 70vw;
+}
+
+.shape-inner-ques {	
+    height: 6vw;
+	/* border  : 2px solid #fcd401; */
+    width: 70vw;
+    margin: auto;
+	background : #03086c;
+}
+.hexagon-ques {
+    -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+.text-ques{
+    margin-left: 100px;
+    margin-top: 22px;
+}
+.quizBox{
+    margin: 20px 0;
+}
+.mcq{
+    margin-top: 20px !important;
+}
+.shape-outer-ans {
+    display: flex;
+    flex-shrink: 0;
+    height: 4.5vw;
+    width: 100%;
+}
+.shape-inner-ans {	
+    height: 4.5vw;
+	/* border  : 2px solid #fcd401; */
+    width: 100%;
+    margin: auto;
+	background : #03086c;
+}
