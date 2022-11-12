@@ -13,7 +13,7 @@ const Finish = () =>{
                 <div className={"text-danger position-relative d-flex justify-content-center pt-3"}>
                     <div className="shape-outer hexagon">
                         <div className="shape-inner hexagon">
-                            <p className="text-white text-center py-auto my-2 fw-bold pt-1" onClick={()=>navigate('/')}>Home</p>
+                            <p className="text-white text-center py-auto my-2 fw-bold " onClick={()=>navigate('/')}>Home</p>
                         </div>
                     </div>
                 </div>

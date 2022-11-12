@@ -39,17 +39,18 @@
     flex-shrink: 0;
     height: 4vw;
     width: 17vw;
+    background: #CEBB64;
 }
 
 .shape-inner {	
-    height: 4vw;
+    height: 3.5vw;
 	/* border  : 2px solid #fcd401; */
-    width: 17vw;
+    width: 16.7vw;
     margin: auto;
 	background : #03086c;
 }
 .hexagon:hover{
-    background-color: #fcd201e3;
+    background-color: #CEBB64;
 }
 .questionBox{
     z-index: 2;
@@ -70,12 +71,14 @@
     flex-shrink: 0;
     height: 6vw;
     width: 70vw;
+    background: #CEBB64;
+    /* border-radius: 5%; */
 }
 
 .shape-inner-ques {	
-    height: 6vw;
+    height: 5vw;
 	/* border  : 2px solid #fcd401; */
-    width: 70vw;
+    width: 69vw;
     margin: auto;
 	background : #03086c;
 }
@@ -84,8 +87,7 @@
     clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 .text-ques{
-    margin-left: 100px;
-    margin-top: 22px;
+    margin-left: 85px;
 }
 .quizBox{
     margin: 20px 0;
@@ -98,11 +100,16 @@
     flex-shrink: 0;
     height: 4.5vw;
     width: 100%;
+    background: #CEBB64;
 }
 .shape-inner-ans {	
-    height: 4.5vw;
+    height: 3.8vw;
 	/* border  : 2px solid #fcd401; */
     width: 100%;
     margin: auto;
 	background : #03086c;
+}
+.text-ans{
+    margin-left: 65px;
+    font-size: 13px;
 }

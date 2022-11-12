@@ -1,82 +1,242 @@
 [
     {
         "aID" : "1a",
-        "value" : "356"
+        "value" : "Good and Simple Tax"
     },
     {
         "aID" : "1b",
-        "value" : "355"
+        "value" : "Goods and Small Tax"
     },
     {
         "aID" : "1c",
-        "value" : "366"
+        "value" : "Goods and Services Tax"
     },
     {
         "aID" : "1d",
-        "value" : "365"
+        "value" : "Goods and Secure Tax"
     },
     {
         "aID" : "2a",
-        "value" : "Cow"
+        "value" : "01/07/2017"
     },
     {
         "aID" : "2b",
-        "value" : "Goat"
+        "value" : "01/07/2018"
     },
     {
         "aID" : "2c",
-        "value" : "Snake"
+        "value" : "01/07/2019"
     },
     {
         "aID" : "2d",
-        "value" : "Camel"
+        "value" : "01/07/2020"
     },
     {
         "aID" : "3a",
-        "value" : "26"
+        "value" : "Sale of Goods"
     },
     {
         "aID" : "3b",
-        "value" : "24"
+        "value" : "Sale of Services"
     },
     {
         "aID" : "3c",
-        "value" : "27"
+        "value" : "Supply of Goods or Services or both"
     },
     {
         "aID" : "3d",
-        "value" : "25"
+        "value" : "Manufacturing of Goods"
     },
     {
         "aID" : "4a",
-        "value" : "59"
+        "value" : "Jewellery"
     },
     {
         "aID" : "4b",
-        "value" : "30"
+        "value" : "Stationery items"
     },
     {
         "aID" : "4c",
-        "value" : "60"
+        "value" : "Alcoholic Liquor for human consumption"
     },
     {
         "aID" : "4d",
-        "value" : "66"
+        "value" : "Books"
     },
     {
         "aID" : "5a",
-        "value" : "Kitten"
+        "value" : "Constitution (101st Amendment) Act, 2016"
     },
     {
         "aID" : "5b",
-        "value" : "Tadpole"
+        "value" : "Constitution (102nd Amendment) Act, 2016"
     },
     {
         "aID" : "5c",
-        "value" : "Calf"
+        "value" : "Constitution (103rd Amendment) Act, 2016"
     },
     {
         "aID" : "5d",
-        "value" : "Puppy"
+        "value" : "Constitution (104th Amendment) Act, 2016"
+    },
+    {
+        "aID" : "6a",
+        "value" : "GST is a destination based tax"
+    },
+    {
+        "aID" : "6b",
+        "value" : "GST is a consumption based tax"
+    },
+    {
+        "aID" : "6c",
+        "value" : "GST is an origin-based tax"
+    },
+    {
+        "aID" : "6d",
+        "value" : "Both a) and b)"
+    },
+    {
+        "aID" : "7a",
+        "value" : "Prime Minister"
+    },
+    {
+        "aID" : "7b",
+        "value" : "Union Finance Minister"
+    },
+    {
+        "aID" : "7c",
+        "value" : "Any State Finance Minister"
+    },
+    {
+        "aID" : "7d",
+        "value" : "GST Council"
+    },
+    {
+        "aID" : "8a",
+        "value" : "Petroleum"
+    },
+    {
+        "aID" : "8b",
+        "value" : "Aviation Turbine Fuel"
+    },
+    {
+        "aID" : "8c",
+        "value" : "High Speed Diesel"
+    },
+    {
+        "aID" : "8d",
+        "value" : "Liquified Petroleum Gas (LPG)"
+    },
+    {
+        "aID" : "9a",
+        "value" : "Inter-State supplies "
+    },
+    {
+        "aID" : "9b",
+        "value" : "Intra-State supplies"
+    },
+    {
+        "aID" : "9c",
+        "value" : "Both of the above"
+    },
+    {
+        "aID" : "9d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "10a",
+        "value" : "In case of further supply of works contract service "
+    },
+    {
+        "aID" : "10b",
+        "value" : "When the service is related to movable property"
+    },
+    {
+        "aID" : "10c",
+        "value" : "When the service is related to immovable property"
+    },
+    {
+        "aID" : "10d",
+        "value" : "All of the above"
+    },
+    {
+        "aID" : "11a",
+        "value" : "Any common man"
+    },
+    {
+        "aID" : "11b",
+        "value" : "Its own student, faculty/ staff"
+    },
+    {
+        "aID" : "11c",
+        "value" : "Both (a) & (b)"
+    },
+    {
+        "aID" : "11d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "12a",
+        "value" : "2,50,000 inclusive of tax"
+    },
+    {
+        "aID" : "12b",
+        "value" : "2,50,000 excluding tax"
+    },
+    {
+        "aID" : "12c",
+        "value" : "1,00,000 inclusive of tax"
+    },
+    {
+        "aID" : "12d",
+        "value" : "1,00,000 inclusive of tax"
+    },
+    {
+        "aID" : "13a",
+        "value" : "Humanised System of Nomenclature"
+    },
+    {
+        "aID" : "13b",
+        "value" : "Harmonised System of Numbers"
+    },
+    {
+        "aID" : "13c",
+        "value" : "Humanised System of Numbers"
+    },
+    {
+        "aID" : "13d",
+        "value" : "Harmonised System of Nomenclature"
+    },
+    {
+        "aID" : "14a",
+        "value" : "gst.gov.in"
+    },
+    {
+        "aID" : "14b",
+        "value" : "cbic.gov.in"
+    },
+    {
+        "aID" : "14c",
+        "value" : "taxinformation.cbic.gov.in"
+    },
+    {
+        "aID" : "14d",
+        "value" : "gstcouncil.gov.in"
+    },
+    {
+        "aID" : "15a",
+        "value" : "CGST"
+    },
+    {
+        "aID" : "15b",
+        "value" : "SGST"
+    },
+    {
+        "aID" : "15c",
+        "value" : "IGST"
+    },
+    {
+        "aID" : "15d",
+        "value" : "Both (a) & (b)"
     }
 ]

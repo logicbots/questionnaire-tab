@@ -1,13 +1,15 @@
 import React,{useEffect,useState} from "react";
 import { useNavigate } from "react-router-dom";
-import quizdata from '../DummyData/questionTable.json';
+//import Data from '../DummyData/questionTable.json';
 import ansData from '../DummyData/answer.json';
 import quesData from '../DummyData/question.json';
+import {ReactComponent as QuesBg} from '../assets/ques.svg';
 
 const Box = (props) =>{
-    const {boxStyle = "",page="",str=""} = props;
+    const {boxStyle = "",page="",str="",data=[]} = props;
     const navigate = useNavigate();
     //console.log("DATA>>>>>",quizdata);
+    const [quizdata,setQuizdata] = useState([]);
     const [ques,setQues] = useState("");
     const [option,setOption] = useState([]);
     const optionAlpha = ["A","B","C","D"];
@@ -24,25 +26,29 @@ const Box = (props) =>{
         console.log("Clicked");
         navigate('/questions');
     }
+    
 
     useEffect(()=>{
-        if(index < quizdata.length){
-            console.log(index);
-            var qid = quizdata[index].qId;
-            console.log("qid>>>>",qid);
-            // quesData.map((val)=>{
-            //     val.qId === qid && setQues(val.value);
-            //     console.log("value of question>>>>",ques)
-            // })
-            console.log("value of question>>>>",quesData[index].value)
-            setQues(quesData[index].value);
-            setOption(quizdata[index].aId);
-        }
-        else{
+        if(page === 'question'){
+            console.log('In questions>>>',data);
+            if(index < data.length){
+                console.log(index);
+                var qid = data[index].qId;
+                console.log("qid>>>>",qid);
+                quesData.map((val)=>{
+                    val.qId === qid && setQues(val.value);
+                    console.log("value of question>>>>",ques)
+                })
+                console.log("value of question>>>>",data[index].value)
+                //setQues(data[index].value);
+                setOption(data[index].aId);
+            }
+            else{
+                resetClass();
+                page === "question" && navigate('/finish');  
+            }
             resetClass();
-            navigate('/finish');   
         }
-        resetClass();
     },[index])
 
     const resetClass = () =>{
@@ -62,8 +68,8 @@ const Box = (props) =>{
 
     const checkAnswer = async(id,i) =>{
         var flag = 0;
-        var qid = quizdata[index].qId;
-        var aid = quizdata[index].answerId;
+        var qid = data[index].qId;
+        var aid = data[index].answerId;
         if(id === aid){
             console.log("Anwer Id >>>>",typeof(id));
             flag = 1;
@@ -82,7 +88,7 @@ const Box = (props) =>{
                 flag === 0 ? setClass4("bg-danger") : setClass4("bg-success")
                 break
         }
-        if(index < quizdata.length){
+        if(index < data.length){
             await delay(1000);
             setIndex(index+1);
         }
@@ -95,7 +101,7 @@ const Box = (props) =>{
                 <div className={"text-danger position-relative d-flex justify-content-center " + boxStyle}>
                     <div className="shape-outer hexagon">
                         <div className="shape-inner hexagon">
-                            <p className="text-white text-center py-auto my-2 fw-bold pt-1" onClick={()=>changeNavigation()}>{str}</p>
+                            <p className="text-white text-center py-auto my-2 fw-bold" onClick={()=>changeNavigation()}>{str}</p>
                         </div>
                     </div>
                 </div>
@@ -104,9 +110,10 @@ const Box = (props) =>{
                 page === "question" &&
                 <>
                     <div className={"text-danger position-relative d-flex justify-content-center " + boxStyle}>
-                        <div className="shape-outer-ques hexagon-ques">
-                            <div className="shape-inner-ques hexagon-ques">
-                                <p className="text-white text-start py-auto fw-bold text-ques">{ques}</p>
+                        <div className="shape-outer-ques hexagon-ques shadow">
+                            {/* <quesBg/> */}
+                            <div className="shape-inner-ques hexagon-ques pt-1">
+                                <p className="text-white text-start py-auto fw-bold text-ques mt-2 pt-1">{ques}</p>
                             </div>
                         </div>
                     </div>
@@ -118,9 +125,9 @@ const Box = (props) =>{
                                     var ansValue = findAnswer(val)
                                     return(
                                         <div key={i} className={"text-danger col-sm-6 mcq"}>
-                                            <div className="shape-outer-ans hexagon ">
+                                            <div className={"shape-outer-ans hexagon " + arr[i]}>
                                                 <div className={"shape-inner-ans hexagon " + arr[i]}>
-                                                    <p className="text-white text-start py-auto mt-2 fw-bold pt-2 text-ques" onClick={()=>checkAnswer(val,i)}>{`${optionAlpha[i]}. ${ansValue}`}</p>
+                                                    <p className="text-white text-start py-auto mt-2 fw-bold pt-1 text-ans" onClick={()=>checkAnswer(val,i)}>{`${optionAlpha[i]}. ${ansValue}`}</p>
                                                 </div>
                                             </div>
                                         </div>

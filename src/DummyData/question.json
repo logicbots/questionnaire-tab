@@ -1,22 +1,62 @@
 [
     {
         "qId" : 1,
-        "value" : "How many days in leap year ?"
+        "value" : "GST stands for"
     },
     {
         "qId" : 2,
-        "value" : " Which animal is known as the 'Ship of the Desert' ? "
+        "value" : "GST was implemented in India from"
     },
     {
         "qId":3,
-        "value" : "How many letters are there in the English alphabet?"
+        "value" : "GST is applicable on"
     },
     {
         "qId":4,
-        "value": "How many seconds are there in a minute?"
+        "value": "Which of the following items is out of purview of GST? "
     },
     {
         "qId":5,
-        "value" : "Baby frog is known as......."
+        "value" : "Which of the following paved the way for introduction of GST in India?"
+    },
+    {
+        "qId":6,
+        "value" : "Which of the following is correct in relation to GST?"
+    },
+    {
+        "qId":7,
+        "value" : "The rate of tax under GST is notified by the Government on the recommendations of "
+    },
+    {
+        "qId":8,
+        "value" : "Currently on which of the following products , GST can be levied? "
+    },
+    {
+        "qId":9,
+        "value" : "CGST is levied on?"
+    },
+    {
+        "qId":10,
+        "value" : "Input tax credit on works contract service can be availed only-"
+    },
+    {
+        "qId":11,
+        "value" : "Services by an educational institution are exempt if the services are provided to –"
+    },
+    {
+        "qId":12,
+        "value" : "What is the monetary limit of contract value in order to attract deduction of tax?"
+    },
+    {
+        "qId":13,
+        "value" : "HSN stands for"
+    },
+    {
+        "qId":14,
+        "value" : "Which of the following is known as the GST Common portal?"
+    },
+    {
+        "qId":15,
+        "value" : "Which type of tax shall be levied in case of intra-State supply?"
     }
 ]
