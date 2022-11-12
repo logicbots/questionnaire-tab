@@ -58,5 +58,77 @@
     {
         "qId":15,
         "value" : "Which type of tax shall be levied in case of intra-State supply?"
+    },
+    {
+        "qId":16,
+        "value" : "What is the time limit beyond which if goods are not returned, the inputs sent for job work shall be treated as supply?"
+    },
+    {
+        "qId":17,
+        "value" : "The term ‘Aggregate Turnover’ under GST includes:"
+    },
+    {
+        "qId":18,
+        "value" : "Which of the following will attract levy of UTGST?"
+    },
+    {
+        "qId":19,
+        "value" : "When does liability to pay GST arise in case of supply of services?"
+    },
+    {
+        "qId":20,
+        "value" : "GSTIN stands for"
+    },
+    {
+        "qId":21,
+        "value" : "How many digits are there in GSTIN?"
+    },
+    {
+        "qId":22,
+        "value" : "In case of exempt supply, ………………….  is required to be issued."
+    },
+    {
+        "qId":23,
+        "value" : "What shall be the default rate and nature of supply, where at the time of receipt of advance, they are not determinable?"
+    },
+    {
+        "qId":24,
+        "value" : "When is e-way bill required to be generated?"
+    },
+    {
+        "qId":25,
+        "value" : "In how many days, if payment is not made by the recipient to supplier, then input tax credit has to be reversed by the recipient?"
+    },
+    {
+        "qId":26,
+        "value" : "What is the form for submission of details of outward supplies?"
+    },
+    {
+        "qId":27,
+        "value" : "In which form is return required to be filed by Non-Resident Taxable person?"
+    },
+    {
+        "qId":28,
+        "value" : "Which of the following types of ledgers are available at GST common portal?"
+    },
+    {
+        "qId":29,
+        "value" : "Input tax credit gets credited to which ledger?"
+    },
+    {
+        "qId":30,
+        "value" : "Every person who fails to pay tax within the due date prescribed shall pay interest at the  rate of"
+    },
+    {
+        "qId":31,
+        "value" : "The amount towards tax, interest, penalty, fee is deposited into"
+    },
+    {
+        "qId":32,
+        "value" : "Interest is calculated"
+    },
+    {
+        "qId":33,
+        "value" : "What is the rate of Tax Deduction at Source (TDS) under GST?"
     }
 ]

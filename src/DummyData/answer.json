@@ -238,5 +238,293 @@
     {
         "aID" : "15d",
         "value" : "Both (a) & (b)"
+    },
+    {
+        "aID" : "16a",
+        "value" : "Six months"
+    },
+    {
+        "aID" : "16b",
+        "value" : "One Year"
+    },
+    {
+        "aID" : "16c",
+        "value" : "Three Years"
+    },
+    {
+        "aID" : "16d",
+        "value" : "Five Years"
+    },
+    {
+        "aID" : "17a",
+        "value" : "Taxable Supplies"
+    },
+    {
+        "aID" : "17b",
+        "value" : "Exempt Supplies"
+    },
+    {
+        "aID" : "17c",
+        "value" : "Both of the above"
+    },
+    {
+        "aID" : "17d",
+        "value" : "Only (a)"
+    },
+    {
+        "aID" : "18a",
+        "value" : "Inter-State supplies"
+    },
+    {
+        "aID" : "18b",
+        "value" : "Intra-State supplies"
+    },
+    {
+        "aID" : "18c",
+        "value" : "Any of the above"
+    },
+    {
+        "aID" : "18d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "19a",
+        "value" : "At the time of Supply of Goods"
+    },
+    {
+        "aID" : "19b",
+        "value" : "On receipt of payment"
+    },
+    {
+        "aID" : "19c",
+        "value" : "On raising of invoice"
+    },
+    {
+        "aID" : "19d",
+        "value" : "Earliest of b and c"
+    },
+    {
+        "aID" : "20a",
+        "value" : "GST Invoice Number"
+    },
+    {
+        "aID" : "20b",
+        "value" : "GST Initiation Number"
+    },
+    {
+        "aID" : "20c",
+        "value" : "GST Identification Number"
+    },
+    {
+        "aID" : "20d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "21a",
+        "value" : "10"
+    },
+    {
+        "aID" : "21b",
+        "value" : "12"
+    },
+    {
+        "aID" : "21c",
+        "value" : "15"
+    },
+    {
+        "aID" : "21d",
+        "value" : "16"
+    },
+    {
+        "aID" : "22a",
+        "value" : "Tax Invoice"
+    },
+    {
+        "aID" : "22b",
+        "value" : "Credit Note"
+    },
+    {
+        "aID" : "22c",
+        "value" : "Bill of Supply"
+    },
+    {
+        "aID" : "22d",
+        "value" : "Debit Note"
+    },
+    {
+        "aID" : "23a",
+        "value" : "18%, Inter-State"
+    },
+    {
+        "aID" : "23b",
+        "value" : "18%, Intra-State"
+    },
+    {
+        "aID" : "23c",
+        "value" : "28%, Inter-State"
+    },
+    {
+        "aID" : "23d",
+        "value" : "28%, Intra-State"
+    },
+    {
+        "aID" : "24a",
+        "value" : "Where there is movement of goods of consignment value exceeding Rs. 15000/-"
+    },
+    {
+        "aID" : "24b",
+        "value" : "Where there is movement of goods of consignment value exceeding Rs. 20000/-"
+    },
+    {
+        "aID" : "24c",
+        "value" : "Where there is movement of goods of consignment value exceeding Rs. 50000/-"
+    },
+    {
+        "aID" : "24d",
+        "value" : "E-way bill is required to be generated in case of every movement of goods"
+    },
+    {
+        "aID" : "25a",
+        "value" : "240 days from the date of issue of invoice"
+    },
+    {
+        "aID" : "25b",
+        "value" : "182 days from the date of issue of invoice"
+    },
+    {
+        "aID" : "25c",
+        "value" : "180 days from the date of issue of invoice"
+    },
+    {
+        "aID" : "25d",
+        "value" : "Up to the end of next financial year"
+    },
+    {
+        "aID" : "26a",
+        "value" : "GSTR-1"
+    },
+    {
+        "aID" : "26b",
+        "value" : "GSTR-2A"
+    },
+    {
+        "aID" : "26c",
+        "value" : "GSTR-2B"
+    },
+    {
+        "aID" : "26d",
+        "value" : "GSTR-3B"
+    },
+    {
+        "aID" : "27a",
+        "value" : "GSTR-3B"
+    },
+    {
+        "aID" : "27b",
+        "value" : "GSTR-4"
+    },
+    {
+        "aID" : "27c",
+        "value" : "GSTR-5"
+    },
+    {
+        "aID" : "27d",
+        "value" : "GSTR-6"
+    },
+    {
+        "aID" : "28a",
+        "value" : "E-Cash Ledger"
+    },
+    {
+        "aID" : "28b",
+        "value" : "E- Credit Ledger"
+    },
+    {
+        "aID" : "28c",
+        "value" : "E- Liability Register"
+    },
+    {
+        "aID" : "28d",
+        "value" : "Any of the above"
+    },
+    {
+        "aID" : "29a",
+        "value" : "E-Cash Ledger"
+    },
+    {
+        "aID" : "29b",
+        "value" : "E- Credit Ledger"
+    },
+    {
+        "aID" : "29c",
+        "value" : "E- Liability Register"
+    },
+    {
+        "aID" : "29d",
+        "value" : "Any of the above"
+    },
+    {
+        "aID" : "30a",
+        "value" : "6%"
+    },
+    {
+        "aID" : "30b",
+        "value" : "10%"
+    },
+    {
+        "aID" : "30c",
+        "value" : "18%"
+    },
+    {
+        "aID" : "30d",
+        "value" : "24%"
+    },
+    {
+        "aID" : "31a",
+        "value" : "E-Cash Ledger"
+    },
+    {
+        "aID" : "31b",
+        "value" : "E- Credit Ledger"
+    },
+    {
+        "aID" : "31c",
+        "value" : "E- Liability Register"
+    },
+    {
+        "aID" : "31d",
+        "value" : "Any of the above"
+    },
+    {
+        "aID" : "32a",
+        "value" : "From the date following the day on which tax becomes due to be paid"
+    },
+    {
+        "aID" : "32b",
+        "value" : "Last day such tax was due to be paid"
+    },
+    {
+        "aID" : "32c",
+        "value" : "No period specified"
+    },
+    {
+        "aID" : "32d",
+        "value" : "From the 1st of the month in which return is required to be filed"
+    },
+    {
+        "aID" : "33a",
+        "value" : "2%"
+    },
+    {
+        "aID" : "33b",
+        "value" : "6%"
+    },
+    {
+        "aID" : "33c",
+        "value" : "1%"
+    },
+    {
+        "aID" : "33d",
+        "value" : "0.5%"
     }
 ]

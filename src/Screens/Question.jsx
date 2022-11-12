@@ -4,15 +4,18 @@ import Data from '../DummyData/questionTable.json';
 
 const Question = () =>{
     const [data,setData] = useState([]);
-
+    const [count,setCount] = useState(0);
     const quizData = (arr,num) =>{
         var newArr = [...arr].sort(()=> 0.5 - Math.random());
         return newArr.slice(0,num);
     }
     useEffect(()=>{
-        var list = quizData(Data,5);
-        console.log("Hello world>>>>>",list)
-        setData(list);
+        if(count === 0){
+            var list = quizData(Data,5);
+            //console.log("Hello world>>>>>",list)
+            setData(list);
+        }
+        setCount(count+1);
     },[])
     return(
         <>

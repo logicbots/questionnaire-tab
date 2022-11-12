@@ -43,7 +43,7 @@
 }
 
 .shape-inner {	
-    height: 3.5vw;
+    height: 3.2vw;
 	/* border  : 2px solid #fcd401; */
     width: 16.7vw;
     margin: auto;
@@ -78,7 +78,7 @@
 .shape-inner-ques {	
     height: 5vw;
 	/* border  : 2px solid #fcd401; */
-    width: 69vw;
+    width: 69.9vw;
     margin: auto;
 	background : #03086c;
 }
@@ -87,7 +87,7 @@
     clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
 }
 .text-ques{
-    margin-left: 85px;
+    margin-left: 95px;
 }
 .quizBox{
     margin: 20px 0;
@@ -103,7 +103,7 @@
     background: #CEBB64;
 }
 .shape-inner-ans {	
-    height: 3.8vw;
+    height: 3.5vw;
 	/* border  : 2px solid #fcd401; */
     width: 100%;
     margin: auto;
@@ -112,4 +112,7 @@
 .text-ans{
     margin-left: 65px;
     font-size: 13px;
+}
+.ansDiv{
+    width: 85%;
 }
