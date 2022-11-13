@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Box from '../Components/Box';
 import Data from '../DummyData/questionTable.json';
+import { Provider, connect } from 'react-redux';
 
-const Question = () =>{
+const Question = (props) =>{
     const [data,setData] = useState([]);
     const [count,setCount] = useState(0);
     const quizData = (arr,num) =>{
@@ -17,6 +18,7 @@ const Question = () =>{
         }
         setCount(count+1);
     },[])
+
     return(
         <>
             <div className='bodyQues'>

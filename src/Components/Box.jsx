@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import ansData from '../DummyData/answer.json';
 import quesData from '../DummyData/question.json';
 import {ReactComponent as QuesBg} from '../assets/ques.svg';
+import { setScore } from "../action/setScore";
+import {connect} from 'react-redux';
 
 const Box = (props) =>{
     const {boxStyle = "",page="",str="",data=[]} = props;
@@ -19,6 +21,7 @@ const Box = (props) =>{
     const [class4,setClass4] = useState("");
     const arr = [class1,class2,class3,class4];
     const [index,setIndex] = useState(0);
+    const [correctCount,setCorrectCount] = useState(0);
 
     const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -45,6 +48,7 @@ const Box = (props) =>{
             }
             else{
                 resetClass();
+                props.setScore(correctCount);
                 page === "question" && navigate('/finish');  
             }
             resetClass();
@@ -73,6 +77,7 @@ const Box = (props) =>{
         if(id === aid){
             //console.log("Anwer Id >>>>",(id));
             flag = 1;
+            setCorrectCount(correctCount+1);
         }
         switch(i){
             case 0 :
@@ -140,29 +145,11 @@ const Box = (props) =>{
                     }
                 </>
             }
-            {/* {
-                page === "questionChoice" &&
-                option.length > 0 &&
-                    <div className="row">
-                        {
-                            option.map((val,i)=>{
-                                var ansValue = findAnswer(val)
-                                return(
-                                    <div key={i} className={"text-danger col-sm-6 " + boxStyle}>
-                                        <div className="shape-outer-ans hexagon ">
-                                            <div className={"shape-inner-ans hexagon " + arr[i]}>
-                                                <p className="text-white text-start py-auto mt-2 fw-bold pt-2 text-ques" onClick={()=>checkAnswer(val,i)}>{`${optionAlpha[i]}. ${ansValue}`}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            })  
-                        }
-                    </div>              
-            } */}
-            
         </>
     )
 }
 
-export default Box;
+const mapDispatchToProps = dispatch =>({
+    setScore: (val) => dispatch(setScore(val)),
+  })
+export default connect(null,mapDispatchToProps)(Box);
