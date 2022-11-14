@@ -30,7 +30,7 @@ const Finish = (props) =>{
                 </div>
                 <div className={"text-danger position-relative d-flex justify-content-center pt-3"} >
                     <div className="shape-outer hexagon" onClick={()=>navigate('/')}>
-                        <div className="shape-inner hexagon">
+                        <div className="shape-inner hexagon d-flex align-items-center justify-content-center">
                             <p className="text-white text-center py-auto my-2 fw-bold " >Home</p>
                         </div>
                     </div>

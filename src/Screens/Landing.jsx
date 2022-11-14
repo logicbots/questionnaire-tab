@@ -17,7 +17,7 @@ const Landing = (props) =>{
         <div className="body">
             <div className={"text-danger position-relative d-flex justify-content-center landingBox"}>
                 <div className="shape-outer hexagon" onClick={()=>changeNavigation()}>
-                    <div className="shape-inner hexagon">
+                    <div className="shape-inner hexagon d-flex align-items-center justify-content-center">
                         <p className="text-white text-center py-auto my-2 fw-bold" >{str}</p>
                     </div>
                 </div>
