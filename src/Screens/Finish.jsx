@@ -26,7 +26,7 @@ const Finish = (props) =>{
                 <h1 className='text-ty text-center'>THANK YOU</h1>
                 <div className='message-box text-center'>
                     <p className='text-score text-center'>for participating in the Quiz.<br/>your score is {score}/5</p>
-                    <img className='image text-center' src={img}/>
+                    <img className='image text-center rounded' src={img}/>
                 </div>
                 <div className={"text-danger position-relative d-flex justify-content-center pt-3"} >
                     <div className="shape-outer hexagon" onClick={()=>navigate('/')}>
