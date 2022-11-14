@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Box from '../Components/Box';
 import Data from '../DummyData/questionTable.json';
-import { Provider, connect } from 'react-redux';
+import leftLogo from '../assets/5years.png';
+import rightLogo from '../assets/cbic.png'
 
 const Question = (props) =>{
     const [data,setData] = useState([]);
@@ -22,6 +23,14 @@ const Question = (props) =>{
     return(
         <>
             <div className='bodyQues'>
+            </div>
+            <div className='logo-div'>
+                <div className='left-logo pt-4 ps-4'>
+                    <img className='left-logo-img' src={leftLogo}/>
+                </div>
+                <div className='right-logo pt-3 pe-4'>
+                    <img className='right-logo-img' src={rightLogo}/>
+                </div>
             </div>
             <div className='questionBox'>
                 <Box page="question" data={quizData(Data,5)}/>

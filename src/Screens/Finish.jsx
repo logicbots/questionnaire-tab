@@ -1,7 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import {connect} from 'react-redux';
-import img from '../assets/QR1.jpg'
+import img from '../assets/QR1.jpg';
+import leftLogo from '../assets/5years.png';
+import rightLogo from '../assets/cbic.png';
 
 const Finish = (props) =>{
     const { score:{score}} = props;
@@ -11,6 +13,14 @@ const Finish = (props) =>{
     return(
         <>
             <div className='bodyQues'>
+            </div>
+            <div className='logo-div'>
+                <div className='left-logo pt-4 ps-4'>
+                    <img className='left-logo-img' src={leftLogo}/>
+                </div>
+                <div className='right-logo pt-3 pe-4'>
+                    <img className='right-logo-img' src={rightLogo}/>
+                </div>
             </div>
             <div className='finishBox'>
                 <h1 className='text-ty text-center'>THANK YOU</h1>

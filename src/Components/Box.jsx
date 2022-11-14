@@ -118,7 +118,9 @@ const Box = (props) =>{
                         <div className="shape-outer-ques hexagon-ques shadow">
                             {/* <quesBg/> */}
                             <div className="shape-inner-ques hexagon-ques d-flex align-items-center">
-                                <p className="text-white text-start py-auto fw-bold text-ques mt-1 pt-2">{ques}</p>
+                                <div className="ques-div">
+                                    <p className="text-white text-start py-auto fw-bold text-ques mt-1 pt-2">{ques}</p>
+                                </div>
                             </div>
                         </div>
                     </div>

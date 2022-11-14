@@ -135,3 +135,27 @@
 .ansDiv{
     width: 85%;
 }
+.logo-div{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.ques-div{
+    width: 90%;
+}
+.left-logo-img{
+    height: 120px;
+    width: 120px;
+}
+.right-logo-img{
+    height: 120px;
+    width: 120px;
+}
+.right-logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
