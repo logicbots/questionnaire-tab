@@ -49,9 +49,9 @@
     margin: auto;
 	background : #03086c;
 }
-.hexagon:hover{
+/* .hexagon:hover{
     background-color: #CEBB64;
-}
+} */
 .questionBox{
     z-index: 2;
     position: absolute;
