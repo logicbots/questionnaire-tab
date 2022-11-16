@@ -130,5 +130,93 @@
     {
         "qId":33,
         "value" : "What is the rate of Tax Deduction at Source (TDS) under GST?"
+    },
+    {
+        "qId":34,
+        "value" : "Which of the following does not fall into category of bonafide baggage, for passengers entering into India."
+    },
+    {
+        "qId":35,
+        "value" : "Green Channel is used by the passengers entering into India, when"
+    },
+    {
+        "qId":36,
+        "value" : "Which of the following is correct ,''Custom Declaration Form is necessary for passengers entering into India, when''"
+    },
+    {
+        "qId":37,
+        "value" : "After filing the Custom Declaration form, the passenger entering into India has to pass through the"
+    },
+    {
+        "qId":38,
+        "value" : "Which of the following mobile application can be used by the International Passengers arriving into  India to file Custom Declaration in advance, even before boarding the flight to India"
+    },
+    {
+        "qId":39,
+        "value" : "Your friend who is India Resident,  is coming to India from Nepal.  What is the value of duty free allowance for articles in his person/accompanied baggage,"
+    },
+    {
+        "qId":40,
+        "value" : "My uncle who is returning to India from USA, the value of the duty free allowance for articles in his person/accompanied baggage is"
+    },
+    {
+        "qId":41,
+        "value" : "For tourist of foreign origin , entering into India from Countries other than Nepal, Bhutan or Myanmar, the value of  duty free allowance for articles in his person/accompanied baggage is"
+    },
+    {
+        "qId":42,
+        "value" : "My brother who is India Resident is coming to India from USA, which of the following items he can bring bring as a part of his duty free baggage,"
+    },
+    {
+        "qId":43,
+        "value" : "Which of the following is correct"
+    },
+    {
+        "qId":44,
+        "value" : "What is the maximum limit of Indian Currency, than can be brought by any Indian passenger arriving into India, from Abroad"
+    },
+    {
+        "qId":45,
+        "value" : "My tourist friend is friend is coming to India from abroad, Can be bring LED/LCD/PLASMA Televisions, as part of his duty free baggage,  exempt from Customs duty?"
+    },
+    {
+        "qId":46,
+        "value" : "My brother is returning to India from abroad after more than one year, he is entitled for clearance free of duty in his bonafide baggage of Jewelleryupto,"
+    },
+    {
+        "qId":47,
+        "value" : "A lady passenger is returning to India from aborad after more than one year, she is entitled for clearance free of duty in her bonafide baggage of Jewellery,"
+    },
+    {
+        "qId":48,
+        "value" : "Which of the following items are not prohibited for import;"
+    },
+    {
+        "qId":49,
+        "value" : "The passengers leaving India can take -------- for various high value items such as Camera, Video Camera,  Jewellery etc. from the Customs Authorities in order to ensure that no duty is charged while bringing back these things to India."
+    },
+    {
+        "qId":50,
+        "value" : "What is the maximum amount of Indian Currency allowed to be taken by Indian Residents,  when going abroad/ leaving India?"
+    },
+    {
+        "qId":51,
+        "value" : "Indian residents going abroad are permitted to take with them foreign currency upto _______so long as the same has been purchased/issued by RBI approved/authorized foreign exchange dealer as per norms."
+    },
+    {
+        "qId":52,
+        "value" : "Passenger of 18 years and above, arriving to India from anywhere, can bring one Laptop or Note book or Computer as part of their duty free baggage."
+    },
+    {
+        "qId":53,
+        "value" : "Which of the following  goods are not  prohibited for import through courier are:"
+    },
+    {
+        "qId":54,
+        "value" : "Which of the following statement is Wrong, The export of following goods, through courier is restricted where"
+    },
+    {
+        "qId":55,
+        "value" : "My relatives from abroad, want to send me gifts through Courier Mode.  For  duty free clearance from Customs, the value of such gifted goods should not exceed"
     }
 ]

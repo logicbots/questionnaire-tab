@@ -526,5 +526,357 @@
     {
         "aID" : "33d",
         "value" : "0.5%"
+    },
+    {
+        "aID" : "34a",
+        "value" : "used personal effects"
+    },
+    {
+        "aID" : "34b",
+        "value" : "travel souvenirs"
+    },
+    {
+        "aID" : "34c",
+        "value" : "Gold/Silver in the form of Bars"
+    },
+    {
+        "aID" : "34d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "35a",
+        "value" : "They don't have any dutiable or prohibited goods"
+    },
+    {
+        "aID" : "35b",
+        "value" : "When they have dutiable or prohibited goods"
+    },
+    {
+        "aID" : "35c",
+        "value" : "Because they like green color more"
+    },
+    {
+        "aID" : "35d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "36a",
+        "value" : "They do not have any dutiable or prohibited goods in their baggage"
+    },
+    {
+        "aID" : "36b",
+        "value" : "The value of goods and currency  in their possession/baggage is in excess of their  eligible duty free allowance"
+    },
+    {
+        "aID" : "36c",
+        "value" : "When they  don't have anything to declare before the Customs"
+    },
+    {
+        "aID" : "36d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "37a",
+        "value" : "Green Channel"
+    },
+    {
+        "aID" : "37b",
+        "value" : "Red Channel"
+    },
+    {
+        "aID" : "37c",
+        "value" : "Yellow Channel"
+    },
+    {
+        "aID" : "37d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "38a",
+        "value" : "ATITHI App"
+    },
+    {
+        "aID" : "38b",
+        "value" : "Arogya Setu App"
+    },
+    {
+        "aID" : "38c",
+        "value" : "PayTm App"
+    },
+    {
+        "aID" : "38d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "39a",
+        "value" : "Upto the Value of Rs. 15,000/-"
+    },
+    {
+        "aID" : "39b",
+        "value" : "Upto the Value of Rs. 1,00,000/-"
+    },
+    {
+        "aID" : "39c",
+        "value" : "Upto the Value of Rs. 50,000/-"
+    },
+    {
+        "aID" : "39d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "40a",
+        "value" : "Rs. 25,000/-"
+    },
+    {
+        "aID" : "40b",
+        "value" : "Rs. 50,000/-"
+    },
+    {
+        "aID" : "40c",
+        "value" : "Rs. 15,000/-"
+    },
+    {
+        "aID" : "40d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "41a",
+        "value" : "Rs. 25,000/-"
+    },
+    {
+        "aID" : "41b",
+        "value" : "Rs. 50,000/-"
+    },
+    {
+        "aID" : "41c",
+        "value" : "Rs. 15,000/-"
+    },
+    {
+        "aID" : "41d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "42a",
+        "value" : "Cigarettes exceeding 100 sticks or cigars exceeding 25 or tobacco exceeding 125 gms."
+    },
+    {
+        "aID" : "42b",
+        "value" : "Alcoholic liquor or wines in excess of two litres"
+    },
+    {
+        "aID" : "42c",
+        "value" : "Laptop"
+    },
+    {
+        "aID" : "42d",
+        "value" : "Gold or silver in any form other than ornaments"
+    },
+    {
+        "aID" : "43a",
+        "value" : "Where the value of foreign currency notes exceeds US $5,000/- or equivalent"
+    },
+    {
+        "aID" : "43b",
+        "value" : "Where the aggregate value of foreign exchange (in the form of currency notes, bank notes, traveller cheques etc.) exceeds US $10,000/- or its equivalent"
+    },
+    {
+        "aID" : "43c",
+        "value" : "Both A& B are correct"
+    },
+    {
+        "aID" : "43d",
+        "value" : "None of this correct"
+    },
+    {
+        "aID" : "44a",
+        "value" : "Rs. 1,00,000/-"
+    },
+    {
+        "aID" : "44b",
+        "value" : "Rs. 5,00,000/-"
+    },
+    {
+        "aID" : "44c",
+        "value" : "Rs. 25,000/- "
+    },
+    {
+        "aID" : "44d",
+        "value" : "Rs. 2,50,000/-"
+    },
+    {
+        "aID" : "45a",
+        "value" : "Yes"
+    },
+    {
+        "aID" : "45b",
+        "value" : "No"
+    },
+    {
+        "aID" : "45c",
+        "value" : ""
+    },
+    {
+        "aID" : "45d",
+        "value" : ""
+    },
+    {
+        "aID" : "46a",
+        "value" : "jewelleryupto a weight, of twenty grams with a value cap of fifty thousand rupees"
+    },
+    {
+        "aID" : "46b",
+        "value" : "forty grams with a value cap of one lakh rupees"
+    },
+    {
+        "aID" : "46c",
+        "value" : "There is no  limit"
+    },
+    {
+        "aID" : "46d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "47a",
+        "value" : "upto a weight, of twenty grams with a value cap of fifty thousand rupees"
+    },
+    {
+        "aID" : "47b",
+        "value" : "forty grams with a value cap of one lakh rupees"
+    },
+    {
+        "aID" : "47c",
+        "value" : "There is no  limit"
+    },
+    {
+        "aID" : "47d",
+        "value" : "None of the above"
+    },
+    {
+        "aID" : "48a",
+        "value" : "Maps and literature where Indian external boundaries have been shown incorrectly."
+    },
+    {
+        "aID" : "48b",
+        "value" : "Narcotic Drugs and Psychotropic Substances."
+    },
+    {
+        "aID" : "48c",
+        "value" : "Goods violating any of the legally enforceable intellectual property rights."
+    },
+    {
+        "aID" : "48d",
+        "value" : "Laptop"
+    },
+    {
+        "aID" : "49a",
+        "value" : "Shipping Bill"
+    },
+    {
+        "aID" : "49b",
+        "value" : "Bill of Entry"
+    },
+    {
+        "aID" : "49c",
+        "value" : "Export Certificate"
+    },
+    {
+        "aID" : "49d",
+        "value" : "Passport"
+    },
+    {
+        "aID" : "50a",
+        "value" : "Indian currency notes not exceeding Rs.25,000/-"
+    },
+    {
+        "aID" : "50b",
+        "value" : "Indian currency notes not exceeding Rs.50,000/-"
+    },
+    {
+        "aID" : "50c",
+        "value" : "Indian currency notes not exceeding Rs.2,00,000/-"
+    },
+    {
+        "aID" : "50d",
+        "value" : "There is no such restrictions"
+    },
+    {
+        "aID" : "51a",
+        "value" : "Rs. 2,00,000/-"
+    },
+    {
+        "aID" : "51b",
+        "value" : "Rs. 5,00,000/-"
+    },
+    {
+        "aID" : "51c",
+        "value" : "There is no  limit"
+    },
+    {
+        "aID" : "51d",
+        "value" : "Rs. 50,000/-"
+    },
+    {
+        "aID" : "52a",
+        "value" : "True"
+    },
+    {
+        "aID" : "52b",
+        "value" : "False"
+    },
+    {
+        "aID" : "52c",
+        "value" : ""
+    },
+    {
+        "aID" : "52d",
+        "value" : ""
+    },
+    {
+        "aID" : "53a",
+        "value" : "Animals & parts thereof or plants & parts thereof,"
+    },
+    {
+        "aID" : "53b",
+        "value" : "Books & Magazines"
+    },
+    {
+        "aID" : "53c",
+        "value" : "Chemicals of chapter 28, 29 & 38 of the first schedule to Customs Tariff Act which need testing"
+    },
+    {
+        "aID" : "53d",
+        "value" : "Precious and semi precious stones & Studded jewellery,"
+    },
+    {
+        "aID" : "54a",
+        "value" : "Goods which are subject to levy of any duty on their export,"
+    },
+    {
+        "aID" : "54b",
+        "value" : "Goods proposed to be exported with claim for Draw Back of Customs duty,"
+    },
+    {
+        "aID" : "54c",
+        "value" : "Goods exported under Duty Entitlement Pass Book Schemes or Duty Exemption Scheme or Export Promotion Capital Goods Scheme, and"
+    },
+    {
+        "aID" : "54d",
+        "value" : "Goods where the value of consignment is below  Rs. 25,000/-"
+    },
+    {
+        "aID" : "55a",
+        "value" : "Rs.  5,000/-"
+    },
+    {
+        "aID" : "55b",
+        "value" : "Rs. 1,000/-"
+    },
+    {
+        "aID" : "55c",
+        "value" : "Rs. 50,000/-"
+    },
+    {
+        "aID" : "55d",
+        "value" : "There is no limit"
     }
 ]

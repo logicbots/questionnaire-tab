@@ -88,16 +88,16 @@
 .shape-outer-ques {
     display: flex;
     flex-shrink: 0;
-    height: 6vw;
-    width: 70vw;
+    height: 7.5vw;
+    width: 72vw;
     background: #CEBB64;
     /* border-radius: 5%; */
 }
 
 .shape-inner-ques {	
-    height: 5vw;
+    height: 6.5vw;
 	/* border  : 2px solid #fcd401; */
-    width: 69.9vw;
+    width: 71.9vw;
     margin: auto;
 	background : #03086c;
 }
@@ -117,12 +117,12 @@
 .shape-outer-ans {
     display: flex;
     flex-shrink: 0;
-    height: 4.5vw;
+    height: 5.5vw;
     width: 100%;
     background: #CEBB64;
 }
 .shape-inner-ans {	
-    height: 3.5vw;
+    height: 4.5vw;
 	/* border  : 2px solid #fcd401; */
     width: 100%;
     margin: auto;
