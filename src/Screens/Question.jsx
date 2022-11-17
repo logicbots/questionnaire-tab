@@ -11,6 +11,15 @@ const Question = (props) =>{
         var newArr = [...arr].sort(()=> 0.5 - Math.random());
         return newArr.slice(0,num);
     }
+    const shuffleArray = (array,num) => {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+        return array.slice(0,num);
+    }
     useEffect(()=>{
         if(count === 0){
             var list = quizData(Data,5);
@@ -33,7 +42,7 @@ const Question = (props) =>{
                 </div>
             </div>
             <div className='questionBox'>
-                <Box page="question" data={quizData(Data,5)}/>
+                <Box page="question" data={shuffleArray(Data,5)}/>
                 {/* <Box page="questionChoice" boxStyle="mcq"/> */}
             </div>
         </>
