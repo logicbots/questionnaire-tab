@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Box from '../Components/Box';
 import Data from '../DummyData/questionTable.json';
-import leftLogo from '../assets/5years.png';
+import leftLogo from '../assets/IMG_6455.png';
 import rightLogo from '../assets/cbic.png'
 
 const Question = (props) =>{
